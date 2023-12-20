@@ -1,0 +1,85 @@
+{
+  "name": "sidetime-session",
+  "version": "1.10.1",
+  "description": "Based on Zoom Video SDK",
+  "dependencies": {
+    "@ant-design/icons": "4.6.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "@zoom/videosdk": "^1.10.0",
+    "antd": "4.24.3",
+    "classnames": "^2.2.6",
+    "immer": "^9.0.6",
+    "lodash": "^4.17.21",
+    "react-draggable": "^4.4.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "trace-error": "tsc --traceResolution"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-sucrase": "^5.0.2",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@svgr/rollup": "^8.1.0",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^26.0.21",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^20.10.5",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint-config-alloy": "^4.6.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.6.2",
+    "rollup": "^4.9.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "1.32.8",
+    "sass-loader": "10.1.1",
+    "typescript": "^4.3.5"
+  }
+}
